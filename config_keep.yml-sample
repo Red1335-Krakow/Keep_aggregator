@@ -1,0 +1,26 @@
+api_id: XXXXX # App API Id  more info here https://core.telegram.org/api/obtaining_api_id
+api_hash: 'XXXXXX' # App API Hash
+session_name: 'sessionkeep' # Unique session name
+api_id2: XXXXX # App API Id  more info here https://core.telegram.org/api/obtaining_api_id
+api_hash2: 'XXXXXX' # App API Hash
+session_name2: 'sessionkeep2' # Unique session name
+
+#forwarding here
+output_channel_names:
+  - 'Keep Summary Channel'
+
+#forwarding from
+input_channel_names:
+   - 'Keep Network'
+   - 'KEEP_Network_ann_RU'
+
+#forwarding from (for users)
+user_input_channel_names:
+   - 'Keep Network Ru'
+   - 'tBTC'
+
+#forwarding users (for users)
+user_channel_names:
+   - '@Toltek6'
+   - '@MasterDanila'
+   - '@vitali1979'
